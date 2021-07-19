@@ -1,10 +1,10 @@
 {
-    "testFiles": "**/*.feature",
-    "pageLoadTimeout": 120000,
-    "defaultCommandTimeout": 40000,
-    "numTestsKeptInMemory": 0,
-    "projectId": "ef1dz3",
-    "baseUrl": "https://merojob.com/",
-    "nodeVersion": "system",
-    "experimentalStudio": true
+  "testFiles": "**/*.feature",
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 40000,
+  "numTestsKeptInMemory": 0,
+  "baseUrl": "https://merojob.com/",
+  "nodeVersion": "system",
+  "experimentalStudio": true,
+  "projectId": "3ro6gg"
 }
