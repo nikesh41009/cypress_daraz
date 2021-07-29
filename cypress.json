@@ -3,7 +3,7 @@
   "pageLoadTimeout": 120000,
   "defaultCommandTimeout": 40000,
   "numTestsKeptInMemory": 0,
-  "baseUrl": "https://merojob.com/",
+  "baseUrl": "https://www.daraz.com.np/",
   "nodeVersion": "system",
   "experimentalStudio": true,
   "projectId": "3ro6gg"

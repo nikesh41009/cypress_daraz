@@ -5,18 +5,24 @@
   "main": "index.js",
   "dependencies": {
     "cypress": "^7.7.0",
-    "cypress-cucumber-preprocessor": "^4.0.0",
     "cypress-iframe": "^1.0.1",
     "cypress-movie": "^3.0.5",
-    "cypress-xpath": "^1.6.1"
+    "faker": "^5.5.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "scripts": {
     "test": "node_modules\\.bin\\cypress run --record --key 22a1cc50-3f98-40f0-97cc-0187aa251c73",
     "chromeTest": "npm run test -- --headless --browser chrome",
     "firefoxTest": "npm run test --headless--browser firefox",
     "edgeTest": "npm run test --headless  --browser edge",
-    "login": "npm run chromeTest -- --spec \"cypress/integration/login.js\""
+    "login": "npm run chromeTest -- --spec \"cypress/integration/login.feature\""
   },
   "author": "",
   "license": "ISC"
