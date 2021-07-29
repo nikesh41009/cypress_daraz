@@ -27,7 +27,7 @@ jobs:
     - name: install dependencies and verify Cypress
       run: npm ci
     - name: Cypress tests
-      run: npm run login:ci:record
+      run: npm run login
       env:
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

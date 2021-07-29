@@ -18,11 +18,15 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run",
+    "test": "node_modules\\.bin\\cypress run --record",
     "chromeTest": "npm run test -- --headless --browser chrome",
     "firefoxTest": "npm run test --headless--browser firefox",
     "edgeTest": "npm run test --headless  --browser edge",
     "login": "npm run chromeTest -- --spec \"cypress/integration/login.feature\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikesh41009/cypress_daraz"
   },
   "author": "",
   "license": "ISC"
