@@ -18,7 +18,7 @@
     "nonGlobalStepDefinitions": true
   },
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run --record",
+    "test": "node_modules\\.bin\\cypress run",
     "chromeTest": "npm run test -- --headless --browser chrome",
     "firefoxTest": "npm run test --headless--browser firefox",
     "edgeTest": "npm run test --headless  --browser edge",
