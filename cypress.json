@@ -5,6 +5,5 @@
   "numTestsKeptInMemory": 0,
   "baseUrl": "https://www.daraz.com.np/",
   "nodeVersion": "system",
-  "experimentalStudio": true,
-  "projectId": "3ro6gg"
+  "experimentalStudio": true
 }

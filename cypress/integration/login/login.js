@@ -11,7 +11,7 @@ beforeEach(function () { // "this" points at the test context object
 
 Given("I visit Daraz's Nepal login page", function () {
     cy.visit('/')
-    cy.get('#anonLogin').click()
+    cy.get('#anonLogin').should('be.visible').click()
 })
 
 When('I click on login button after I provide empty input data', function () {

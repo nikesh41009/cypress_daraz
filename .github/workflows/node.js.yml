@@ -26,3 +26,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run login
+    - record: true
+    env:
+     CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+     CYPRESS_PROJECT_ID: ${{secrets.PROJECTID}}
+     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
