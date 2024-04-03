@@ -8,7 +8,7 @@ I do not own Daraz or any of the code written to make it. My attempt is to simpl
 
 ## Precondition
 
-Before you can conitnue with the test, you should have registered valid acccounts by email in the Daraz database.
+Before you can continue with the test, you should have registered valid acccounts by email in the Daraz database.
 
 ## Test Info
 
